@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 470px;
 }
 
 .phones-image {
@@ -90,7 +90,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 100%;
+    width: 365px;
     margin: 0.4rem;
     padding: 1.4rem 0;
     border: 1px solid lightgray;
@@ -121,7 +121,7 @@ body {
     border-radius: 3px;
     font-size: 12px;
     height: 36px;
-    width: 100%;
+    width: 290px;
     overflow: hidden;
 }
 
@@ -212,7 +212,7 @@ input.text, textarea {
 .download-apps {
     display: flex;
     flex-direction: row;
-    width: 81%;
+    width: 294px;
     justify-content: space-between;
 }
 
@@ -233,5 +233,14 @@ input.text, textarea {
     }
     .right-side {
         width: 100%;
+    }
+    .box {
+        width: 365px;
+    }
+    .input-box {
+        width: 290px;
+    }
+    .download-apps {
+        width: 294px;
     }
 }
